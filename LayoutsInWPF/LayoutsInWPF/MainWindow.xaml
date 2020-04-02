@@ -5,13 +5,67 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LayoutsInWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="474.877" Width="221.277">
+        Title="MainWindow" Height="305.543" Width="239.277">
 
-    <StackPanel Orientation="Vertical">
+    <!--________________________________Stack panel_______________________________-->
+
+
+    <!--<StackPanel Orientation="Vertical">
 
         <Label>THis is a label</Label>
         <Button>EXPLODE</Button>
         <CheckBox>I AM FINE</CheckBox>
         <CheckBox>I AM SICK</CheckBox>
-    </StackPanel>
+
+        <ListBox>
+            <ListBoxItem>
+                Item1
+            </ListBoxItem>
+        </ListBox>
+
+        <ListBox>
+            <ListBoxItem>
+                Item2
+            </ListBoxItem>
+        </ListBox>
+
+        <Button Width="40">ok</Button>
+    </StackPanel>-->
+    <!--________________________________________________________________________-->
+
+
+
+    <!--___________________WRAP PANEL____________________________________________-->
+
+    <!--<WrapPanel Orientation="Horizontal">
+        
+        <Button Width="100" Margin="5">Button</Button>
+        <Button Width="100" Margin="5">Button</Button>
+        <Button Width="100" Margin="5">Button</Button>
+        <Button Width="100" Margin="5">Button</Button>
+        <Button Width="100" Margin="5">Button</Button>
+        <Button Width="100" Margin="5">Button</Button>
+        
+        
+    </WrapPanel>-->
+    <!--________________________________________________________________________-->
+
+
+    <!--___________________CANVAS____________________________________________-->
+    <!--<Canvas>
+        <Label>hI THIS IS A CANVAS</Label>
+        <Button RenderTransformOrigin="2.633,3.683" Canvas.Left="100" Canvas.Top="59">OK</Button>
+
+    </Canvas>-->
+
+    <!--________________________________________________________________________-->
+
+
+
+    <!--___________________DOCKPANEL____________________________________________-->
+
+
+    <!--________________________________________________________________________-->
+
+
 </Window>
