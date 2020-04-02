@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LayoutsInWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="305.543" Width="239.277">
+        Title="MainWindow" Height="291.543" Width="237.277">
 
     <!--________________________________Stack panel_______________________________-->
 
@@ -67,5 +67,32 @@
 
     <!--________________________________________________________________________-->
 
+    <!--GRID MOST POWERFUL-->
+    <Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="AUTO"/>
+            <RowDefinition Height="AUTO"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="150"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0" Grid.Column="0" Content="First Name"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="Last Name"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Address"/>
+        <TextBox Grid.Row="0" Grid.Column="1" Margin="5"/>
+        <TextBox Grid.Row="1" Grid.Column="2" Margin="5"/>
+        <TextBox Grid.Row="2" Grid.Column="3" Margin="5"/>
+        <Button Grid.Row="4" Grid.Column="1" Content="Submit" HorizontalAlignment="Left" MinWidth="80" Margin="4"/>
+
+
+
+    </Grid>
+    <!--________________________________________________________________________-->
 
 </Window>
