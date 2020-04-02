@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LayoutsInWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="474.877" Width="221.277">
+
+    <StackPanel Orientation="Vertical">
+
+        <Label>THis is a label</Label>
+        <Button>EXPLODE</Button>
+        <CheckBox>I AM FINE</CheckBox>
+        <CheckBox>I AM SICK</CheckBox>
+    </StackPanel>
 </Window>
